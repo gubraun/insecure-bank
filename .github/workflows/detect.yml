@@ -1,4 +1,4 @@
-name: Scan a project with Black Duck
+name: detect
   
 on:
   push:
