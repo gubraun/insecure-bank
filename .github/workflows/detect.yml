@@ -8,7 +8,8 @@ on:
   workflow_dispatch:
   
 jobs:
-  blackduck:
+  run:
+    name: Black Duck
     runs-on: ubuntu-latest
     steps:  
     - name: Checkout the code
