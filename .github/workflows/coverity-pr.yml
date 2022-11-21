@@ -1,8 +1,9 @@
-name: Coverity on PR
+name: coverity-pr
 
 on:
-  pull_request:
-    branches: [ master ]
+  #pull_request:
+  #  branches: [ master ]
+  workflow_dispatch:
     
 jobs:
   scan:
