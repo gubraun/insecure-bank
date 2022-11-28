@@ -28,7 +28,7 @@ jobs:
           blackduck_scan_full: false
 
           # Optional parameter. The values could be. ALL|NONE|BLOCKER|CRITICAL|MAJOR|MINOR|OK|TRIVIAL|UNSPECIFIED
-          blackduck_scan_failure_severities: "['ALL']"
+          #blackduck_scan_failure_severities: "['ALL']"
           
           # To make sure Synopsys bridge is downloaded and ran automatically
           bridge_download_url: ${{ env.LINUX_BRIDGE_URL }}
