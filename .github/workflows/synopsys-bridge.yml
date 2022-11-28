@@ -8,6 +8,7 @@ on:
     branches: [ master, main ]
 
 env:
+  # Test instance uses self-signed certificate
   BLACKDUCK_TRUST_CERT: true
   
 jobs:
